@@ -1,0 +1,22 @@
+{
+  "name": "graphql.wtf-genql",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "generate": "genql --endpoint https://api-eu-central-1.graphcms.com/v2/ckrvra12f06pb01z82dn2ebd4/master --output ./generated",
+    "start": "next start"
+  },
+  "devDependencies": {
+    "@genql/cli": "2.6.0"
+  },
+  "dependencies": {
+    "@genql/runtime": "2.6.0",
+    "graphql": "15.5.1",
+    "graphql-request": "3.5.0",
+    "next": "11.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "swr": "0.5.6"
+  }
+}
